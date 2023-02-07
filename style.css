@@ -1,9 +1,9 @@
-.success {
-	color: rgb(43, 0, 233);
+#cange1 {
+	color: rgb(21, 254, 0);
 }
-.error {
-	color: rgba(27, 212, 120, 0.982);
+#cange2 {
+	color: rgb(255, 0, 255);
 }
-.small {
-	font-size: 15px;
+#cange3 {
+	color: blue;
 }
