@@ -1,9 +1,14 @@
-.e {
-	color: rgb(0, 49, 139);
+#block h1, #block h2{
+	text-align: center;
+	color: rgb(255, 96, 255);
+	font-size: 15px;
 }
-
-.m {
-	color: rgb(255, 0, 230);
-	font-size: 30px;
-    height: 5cm;
+#block h2{
+	text-align: center;
+	color: rgb(0, 209, 49);
+	font-size: 15px;
+}
+.m{
+	text-align: center;
+	color: rgb(28, 2, 255);
 }
