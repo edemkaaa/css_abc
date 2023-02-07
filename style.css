@@ -1,0 +1,9 @@
+.success {
+	color: rgb(43, 0, 233);
+}
+.error {
+	color: rgba(27, 212, 120, 0.982);
+}
+.small {
+	font-size: 15px;
+}
