@@ -1,9 +1,6 @@
-#cange1 {
-	color: rgb(21, 254, 0);
+#elem h2 {
+	color: rgb(181, 255, 164);
 }
-#cange2 {
-	color: rgb(255, 0, 255);
-}
-#cange3 {
-	color: blue;
+#elem1 .text{
+	color: rgba(9, 255, 0, 0);
 }
