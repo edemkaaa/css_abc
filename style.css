@@ -1,17 +1,9 @@
 #block, .bbb
-{
-	text-align: center;
-	color: rgb(225, 255, 0);
+h1 {
 	font-size: 15px;
+	color: rgb(60, 255, 0);
 }
-.fff, h2.xxx
-{
-	text-align: center;
-	color: rgb(0, 119, 255);
-	font-size: 15px;
-}
-.xxx
-{
-	text-align: center;
-	color: rgb(255, 0, 85);
+h1 {
+	font-style: normal;
+	color: rgb(17, 0, 255);
 }
