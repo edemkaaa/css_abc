@@ -1,9 +1,3 @@
-#block, .bbb
-h2 {
-	font-size: 15px;
-	color: rgb(77, 255, 0);
-}
-h2 {
-	font-style: normal;
-	color: rgb(255, 0, 200);
+main * p {
+	color: blue;
 }
