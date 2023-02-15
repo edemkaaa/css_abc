@@ -1,22 +1,17 @@
-.two:nth-child(even){
-    color: seagreen;
+g:first-of-type{
+    color: rgb(5, 51, 255);
 }
-.two:nth-child(odd){
-    color: blueviolet;
-}
-
-.three:nth-last-child(2){
-color: lightseagreen;
+h2:last-of-type{
+    color: rgb(255, 0, 255);
 }
 
-.four:only-child{
-    color: darkred;
+p:nth-of-type(2){
+    color: rgb(90, 90, 90);
+}
+p:nth-last-of-type(2){
+color: rgb(193, 27, 27);
 }
 
-.empty:empty{
-    border: 1px solid blueviolet;
-}
-li.empty{
-    border: 1px solid black;
-    margin: 10px;
+h2:only-of-type{
+    color: rgb(179, 93, 139);
 }
