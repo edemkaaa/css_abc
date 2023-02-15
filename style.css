@@ -1,11 +1,26 @@
-main * title {
-	color: green;
+a:link {
+	color: rgb(114, 155, 57);
 }
-main * link
-{
-	color: blueviolet;
+a:visited {
+	color: rgb(71, 120, 71);
 }
-main * .top
-{
-	color: rgb(6, 255, 230);
+a:hover {
+    color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+a:active {
+	color: rgb(108, 14, 14);
+}
+
+b:link, b:visited {
+    text-decoration: none;
+	color: blue;
+}
+b:hover {
+    text-decoration: underline;
+	color: rgba(17, 4, 4, 0.277);
+}
+b:active {
+    text-decoration: none;
+	color: rgb(100, 100, 160);
 }
