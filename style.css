@@ -1,26 +1,27 @@
-a:link {
-	color: rgb(114, 155, 57);
-}
-a:visited {
-	color: rgb(71, 120, 71);
+a {
+    color: red;
 }
 a:hover {
-    color: rgb(0, 0, 0);
-	text-decoration: none;
-}
-a:active {
-	color: rgb(108, 14, 14);
+    text-decoration: none;
 }
 
-b:link, b:visited {
-    text-decoration: none;
-	color: blue;
+a.two {
+    color: rgb(149, 255, 1);
 }
-b:hover {
-    text-decoration: underline;
-	color: rgba(17, 4, 4, 0.277);
-}
-b:active {
+a:hover.two {
     text-decoration: none;
-	color: rgb(100, 100, 160);
+}
+
+#block a.three {
+    color: rgb(60, 255, 0);
+}
+#block a.three:hover {
+    text-decoration: none;
+}
+
+.block a.four {
+    color:rgb(75, 31, 34);
+}
+.block a.four:hover {
+    text-decoration: none;
 }
