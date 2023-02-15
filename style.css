@@ -1,27 +1,22 @@
-a {
-    color: red;
+.two:nth-child(even){
+    color: seagreen;
 }
-a:hover {
-    text-decoration: none;
-}
-
-a.two {
-    color: rgb(149, 255, 1);
-}
-a:hover.two {
-    text-decoration: none;
+.two:nth-child(odd){
+    color: blueviolet;
 }
 
-#block a.three {
-    color: rgb(60, 255, 0);
-}
-#block a.three:hover {
-    text-decoration: none;
+.three:nth-last-child(2){
+color: lightseagreen;
 }
 
-.block a.four {
-    color:rgb(75, 31, 34);
+.four:only-child{
+    color: darkred;
 }
-.block a.four:hover {
-    text-decoration: none;
+
+.empty:empty{
+    border: 1px solid blueviolet;
+}
+li.empty{
+    border: 1px solid black;
+    margin: 10px;
 }
