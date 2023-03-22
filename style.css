@@ -1,28 +1,10 @@
-#one {
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	
-	width: 150px;
-	height: 150px;
-	background: #black;
+div {
+	width: 10000px;
+	text-align: start;
+	color: black;
 }
-
-#two {
-	position: absolute;
-	top: 100px;
-	left: 100px;
-	
-	width: 100px;
-	height: 100px;
-	background: #7e89eb;
-}
-#three {
-	position: absolute;
-	top: 90px;
-	left: 90px;
-	
-	width: 100px;
-	height: 100px;
-	background: green;
+img {
+	float: left;
+	width: 10;
+	height: 20cm;
 }
